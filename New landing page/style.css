@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)), url('new background.jpeg');
+    background-size: cover;
+    font-family: sans-serif;
+    
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.logo{
+    font-size: 2em;
+    letter-spacing: 3px;
+    font-style: italic;
+    padding: 10px 20px;
+    background: purple;
+    border: radius 20px;
+    transition: 1s linear;
+}
+
+.logo:hover{
+    background: transparent;
+    color: burlywood;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    letter-spacing: 3px;
+    background: indianred;
+    border-radius: 10px;
+    height: 100%;
+    font-style: italic;
+    font-size: 20px;
+    
+}
+
+.menu a:hover{
+    background: transparent;
+    color: indianred;
+}
+
+.register a{
+    color: white;
+    background: indianred;
+    font-size: 20px;
+    letter-spacing: 3px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-style: italic;
+    font-size: large;
+    text-decoration: none;
+
+}
+
+.register a:hover{
+    background: transparent;
+    color: blue;
+}
+
+.intro-txt{
+    max-width: 650px;
+    letter-spacing: 3px;
+    font-style: italic;
+    color: white;
+    top: 20%;
+    left: 35%;
+    transform: (-50% -50%);
+    text-align: center;
+    position: absolute;
+}
+
+.intro-txt a{
+    color: white;
+    text-decoration: none;
+    background: indianred;
+    border-radius: 10px;
+    font-size: 25px;
+    letter-spacing: 3px;
+    padding: 10px 20px;
+}
+
+.intro-txt a:hover{
+    background: transparent;
+    color: blueviolet;
+}
+
+.intro-txt h1{
+    color: burlywood;
+    font-size: 50px
+}
+
+.intro-txt h1:hover{
+    color: indianred;
+}
+
+section{
+    max-width: 900px;
+    text-align: center;
+    position: absolute;
+    letter-spacing: 3px;
+    top: 55%;
+    left: 25%;
+    color: whitesmoke;
+    font-size: large;
+    font-style: italic;
+}
+
+button{
+    width: 150px;
+    height: 30px;
+    color: white;
+    background: indianred;
+    border-radius: 8px;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+
+button:hover{
+    background: transparent;
+    color: indianred;
+}
+
+.offer{
+    color: white;
+    background: indianred;
+}
+.offer:hover{
+    background: transparent;
+    color: brown;
+}
